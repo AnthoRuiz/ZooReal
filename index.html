@@ -8,10 +8,33 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./scripts/index.js"></script>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     <title>ZooReal</title>
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Menu</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#Bears">Bears</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Giraffes">Giraffes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Lions">Lions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Monkeys">Monkeys</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Alligators">Alligators</a>
+        </li>
+    </ul>
+    </nav>
+
     <section class="wrapper">
         <div class="container-fostrap">
             <div>
@@ -21,7 +44,7 @@
                 </h1>
             </div>
             <br>
-            <h1 class="heading">
+            <h1 class="heading" id="Bears">
                 Bears
             </h1>
             <div class="content">
@@ -105,7 +128,7 @@
                 </div>
             </div> <!--end content-->
 
-            <h1 class="heading">
+            <h1 class="heading" id="Giraffes">
                 Giraffes
             </h1>
             <div class="content">
@@ -191,7 +214,7 @@
                 </div>
             </div> <!--end content-->
 
-            <h1 class="heading">
+            <h1 class="heading" id="Lions">
                 Lions
             </h1>
             <div class="content">
@@ -277,7 +300,7 @@
                 </div>
             </div> <!--end content-->
 
-            <h1 class="heading">
+            <h1 class="heading" id="Monkeys">
                 Monkeys
             </h1>
             <div class="content">
@@ -394,7 +417,128 @@
                     </div>
                 </div>
             </div> <!--end content-->
+
+            <h1 class="heading" id="Alligators">
+                Alligators
+            </h1>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card">
+                                <a class="img-card" href="https://en.wikipedia.org/wiki/Chinese_alligator">
+                                <img src="./images/China-Alligator.jpg" />
+                            </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        Wren
+                                    </a>
+                                    </h4>
+                                    <p class="">
+                                        <ul class="list-unstyled">
+                                            <li>Scientific name: Alligator sinensis</li>
+                                            <li>Where Found: Xuancheng, Nanling County, Jing County, Wuhu, Langxi County, and Guangde County</li>
+                                            <li>Size</li>
+                                                <ul>
+                                                    <li>about 5 feet (1.5 meters)</li>
+                                                </ul>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a class="btn btn-link btn-block" data-toggle="collapse" href="#collapseChina" role="button" aria-expanded="false" aria-controls="collapseChina">
+                                        Read More
+                                    </a>
+                                    <div class="collapse" id="collapseChina">
+                                        <div class="card-content">
+                                            <p align="justify">Chinese alligators dig extensive tunnels with multiple chambers,
+                                                entrances and pools. Largely nocturnal because of human persecution,
+                                                they stay in their tunnels much of the day when humans are in the vicinity,
+                                                as well as during cool weather and winter months.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card">
+                                <a class="img-card" href="https://en.wikipedia.org/wiki/American_alligator">
+                                <img src="./images/American-Alligator.jpg" />
+                            </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        Aspen
+                                    </a>
+                                    </h4>
+                                    <p class="">
+                                        <ul class="list-unstyled">
+                                            <li>Scientific name: Alligator mississippiensis</li>
+                                            <li>Where Found: Wetlands of southeastern United States</li>
+                                            <li>Size</li>
+                                                <ul>
+                                                    <li>Length: Average: 6-16 feet (1.8 to 4.9 m) (Males are significantly larger than females)</li>
+                                                    <li>Average Weight: Males: 161 lb. (73.2 kg); Females: 121 lb. (55.1 kg)</li>
+                                                    <li>Lifespan: 50 years</li>
+                                                </ul>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a class="btn btn-link btn-block" data-toggle="collapse" href="#collapseAmerican" role="button" aria-expanded="false" aria-controls="collapseAmerican">
+                                        Read More
+                                    </a>
+                                    <div class="collapse" id="collapseAmerican">
+                                        <div class="card-content">
+                                            <p align="justify">American alligators are large crocodilians found only in the United States.
+                                                They can grow to be more than <b>12 feet (3.6 meters)</b> in length and weigh as much as <b>1,000 pounds (450 kilograms)</b>,
+                                                with males being slightly larger than females on average. The animal's dark skin is armored with small, bony scales called scutes..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card">
+                                <a class="img-card" href="https://en.wikipedia.org/wiki/American_alligator">
+                                <img src="./images/American-Alligator2.jpg" />
+                            </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        Mika
+                                    </a>
+                                    </h4>
+                                    <p class="">
+                                        <ul class="list-unstyled">
+                                            <li>Scientific name: Alligator mississippiensis</li>
+                                            <li>Where Found: Wetlands of southeastern United States</li>
+                                            <li>Size</li>
+                                                <ul>
+                                                    <li>Length: Average: 6-16 feet (1.8 to 4.9 m) (Males are significantly larger than females)</li>
+                                                    <li>Average Weight: Males: 161 lb. (73.2 kg); Females: 121 lb. (55.1 kg)</li>
+                                                    <li>Lifespan: 50 years</li>
+                                                </ul>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a class="btn btn-link btn-block" data-toggle="collapse" href="#Lore" role="button" aria-expanded="false" aria-controls="Lore">
+                                        Read More
+                                    </a>
+                                    <div class="collapse" id="Lore">
+                                        <div class="card-content">
+                                            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet.
+                                                Libero nunc consequat interdum varius. Tellus cras adipiscing enim eu turpis egestas pretium. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--end content-->
         </div>
     </section>
+
 </body>
 </html>
